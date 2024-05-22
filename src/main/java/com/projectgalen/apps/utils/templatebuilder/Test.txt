@@ -1,0 +1,16 @@
+    // ${template_start_421282da-c4ce-4632-9d50-355781a2d1c6}
+    //!
+    //!/**
+    //! * @author ${t_author}
+    //! */
+    //!public static ${t_primitive} @NotNull [] append(${t_primitive} src, ${t_primitive} @NotNull [] dest) {
+    //!    ${t_primitive}[] array = new ${t_primitive}[dest.length + 1];
+    //!    arraycopy(dest, 0, array, 0, dest.length);
+    //!    array[dest.length] = src;
+    //!    return array;
+    //!}
+    // ${template_end_421282da-c4ce-4632-9d50-355781a2d1c6}
+    // ${template_start_4443a75f-fbc9-47c5-be3c-30d6a7605f65}
+    //!
+    //!public static ${t_primitive} safeParse(String str, ${t_primitive} defaultValue) { try { return ${t_parse}(str); } catch(Exception e) { return defaultValue; } }
+    // ${template_end_4443a75f-fbc9-47c5-be3c-30d6a7605f65}
