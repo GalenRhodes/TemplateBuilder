@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.projectgalen.apps.utils.templatebuilder.Main" />
+    <module name="TemplateBuilder" />
+    <option name="PROGRAM_PARAMETERS" value="--Cauthor=&quot;Galen Rhodes&quot; src/main/java/com/projectgalen/apps/utils/templatebuilder/Test.java" />
+    <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean package" />
+    </method>
+  </configuration>
+</component>
