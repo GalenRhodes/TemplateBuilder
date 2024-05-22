@@ -1,6 +1,6 @@
 // ERROR: Unable to create template: java.lang.RuntimeException: ${t_parse} cannot be applied to Character.
 
-package com.projectgalen.apps.utils.templatebuilder;
+package com.projectgalen.apps.utils.templatebuilder.test;
 // ================================================================================================================================
 //     PROJECT: TemplateBuilder
 //    FILENAME: Test.java
@@ -25,7 +25,7 @@ import static java.lang.System.arraycopy;
 
 public class Test {
     public Test() { }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -35,7 +35,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -45,7 +45,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -55,7 +55,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -65,7 +65,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -75,7 +75,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -85,7 +85,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -95,7 +95,7 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     /**
      * @author Galen Rhodes
      */
@@ -105,21 +105,21 @@ public class Test {
         array[dest.length] = src;
         return array;
     }
-    
+
     public static boolean safeParse(String str, boolean defaultValue) { try { return Boolean.parseBoolean(str); } catch(Exception e) { return defaultValue; } }
 
     // ERROR: Unable to create template: java.lang.RuntimeException: ${t_parse} cannot be applied to Character.
 
-    
+
     public static byte safeParse(String str, byte defaultValue) { try { return Byte.parseByte(str); } catch(Exception e) { return defaultValue; } }
-    
+
     public static short safeParse(String str, short defaultValue) { try { return Short.parseShort(str); } catch(Exception e) { return defaultValue; } }
-    
+
     public static int safeParse(String str, int defaultValue) { try { return Integer.parseInt(str); } catch(Exception e) { return defaultValue; } }
-    
+
     public static long safeParse(String str, long defaultValue) { try { return Long.parseLong(str); } catch(Exception e) { return defaultValue; } }
-    
+
     public static float safeParse(String str, float defaultValue) { try { return Float.parseFloat(str); } catch(Exception e) { return defaultValue; } }
-    
+
     public static double safeParse(String str, double defaultValue) { try { return Double.parseDouble(str); } catch(Exception e) { return defaultValue; } }
 }
